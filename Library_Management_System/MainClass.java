@@ -27,6 +27,7 @@ public class MainClass {
 			{
 				Member_Class member = new Member_Class();
 				member.InputAll();
+				ac[idToBorrow-1].setNewMemberInfoForABook();
 			}
 			else
 			{
@@ -52,6 +53,7 @@ public class MainClass {
 			{
 				Member_Class member = new Member_Class();
 				member.InputAll();
+				hc[idToBorrow-1].setNewMemberInfoForABook();
 			}
 			else
 			{
