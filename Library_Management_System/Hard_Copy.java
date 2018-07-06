@@ -6,11 +6,11 @@ public class Hard_Copy extends Book_Class{
 	
 	public void inputNumberOfPages()
 	{
-		System.out.println("How many pages in book id :"+getBookId());
+		System.out.println("How many pages in book id "+getBookId());
 		numberOfPages = myscanner.nextInt();
 	}
 	
-	public void setNewMemberInfoForABook()
+	public void setNewMemberIdForABook()
 	{
 		Member_Class member = new Member_Class();
 		setBook_borrower_id(member.getMemberId());
@@ -30,6 +30,6 @@ public class Hard_Copy extends Book_Class{
 		{
 			System.out.println("Status of the book   : Not available");
 		}
-		
+		System.out.println("\n");
 	}
 }

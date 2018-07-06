@@ -10,7 +10,7 @@ public class Audio_Copy extends Book_Class{
 		audio_duration = myscanner.nextDouble();
 	}
 	
-	public void setNewMemberInfoForABook()
+	public void setNewMemberIdForABook()
 	{
 		Member_Class member = new Member_Class();
 		setBook_borrower_id(member.getMemberId());
@@ -30,7 +30,7 @@ public class Audio_Copy extends Book_Class{
 		{
 			System.out.println("Status of the book   : Not available");
 		}
-		
+		System.out.println("\n");
 	}
 
 }
